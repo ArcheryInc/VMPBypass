@@ -9,7 +9,7 @@
 #include <thread>
 using namespace std::literals::chrono_literals;
 
-constexpr const char* WINDOW_TITLE = "Elden Ring Launcher";
+constexpr const char* WINDOW_TITLE = "VMP";
 constexpr unsigned int WINDOW_WIDTH = 300;
 constexpr unsigned int WINDOW_HEIGHT = 150;
 constexpr SDL_WindowFlags WINDOW_FLAGS = (SDL_WindowFlags)(
@@ -182,8 +182,8 @@ void Render() noexcept {
         )) {
             SDL_ShowSimpleMessageBox(
                 SDL_MESSAGEBOX_ERROR,
-                "Elden Ring Launcher Error",
-                "Could not launch eldenring.exe",
+                "VMP Error",
+                "Could not launch VMP_b3095_GameProcess.exe",
                 g_window
             );
         }
